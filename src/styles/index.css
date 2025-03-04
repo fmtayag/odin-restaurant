@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background-color: rgb(8, 8, 8);
+    --text-primary: white;
+    --accent-color: rgb(226, 72, 16);
+    --main-margin: 1.25rem;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('../../assets/Norse-Bold.woff2') format('woff2'),
+      url('../../assets/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/Raleway-Regular.woff2') format('woff2'),
+        url('../../assets/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-color: var(--background-color);
+}
+
+h1, h2, p, button {
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    color: var(--text-primary);
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Norse', 'Times New Roman', Times, serif;
+}

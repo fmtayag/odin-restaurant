@@ -3,6 +3,7 @@ import createHome from "./pages/home.js";
 import createMenu from "./pages/menu.js";
 import createAbout from "./pages/about.js";
 import './styles/index.css';
+import './styles/nav.css';
 
 const btnHome = document.querySelector("#home");
 const btnMenu = document.querySelector("#menu");

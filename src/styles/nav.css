@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--main-margin);
+}
+
+header > :nth-child(1) {
+    & h1 {
+        margin-left: 1rem;
+    }
+}
+
+nav {
+    display: flex;
+    gap: max(1rem, 4vw);
+}
+
+nav > button {
+    border: 0;
+    background-color: var(--background-color);
+    /* padding: 1rem; */
+    font-weight: bold;
+    font-size: 1.15rem;
+    transition: color 150ms ease-in;
+}
+
+nav > button:hover {
+    color: var(--accent-color);
+}
