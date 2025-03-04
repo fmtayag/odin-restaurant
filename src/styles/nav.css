@@ -17,7 +17,7 @@ nav {
 
 nav > button {
     border: 0;
-    background-color: var(--background-color);
+    background: none;
     /* padding: 1rem; */
     font-weight: bold;
     font-size: 1.15rem;
