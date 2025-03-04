@@ -4,7 +4,7 @@ header {
     margin: var(--main-margin);
 }
 
-header > :nth-child(1) {
+header > :nth-child(1) { /* The logo */
     & h1 {
         margin-left: 1rem;
     }
@@ -22,6 +22,7 @@ nav > button {
     font-weight: bold;
     font-size: 1.15rem;
     transition: color 150ms ease-in;
+    text-transform: uppercase;
 }
 
 nav > button:hover {
