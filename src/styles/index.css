@@ -7,8 +7,9 @@
 :root {
     --background-color: rgb(8, 8, 8);
     --text-primary: white;
+    --text-secondary: gainsboro;
     --accent-color: rgb(226, 72, 16);
-    --main-margin: 1.25rem;
+    --main-margin: 3rem;
 }
 
 @font-face {
@@ -30,8 +31,11 @@
 }
 
 body {
+    background-image: url('../../assets/overlay.png');
     background-repeat: no-repeat;
-    background-position: 50% 20%;
+    background-position: bottom -8rem right -8rem;
+    background-attachment: fixed;
+    background-size: min(70vw, 1020px);
     background-color: var(--background-color);
 }
 
@@ -48,4 +52,28 @@ h1, h2, p, button {
 
 .title {
     font-family: 'Norse', 'Times New Roman', Times, serif;
+}
+
+.secondary {
+    color: var(--text-secondary);
+}
+
+button.primary {
+    width: 200px;
+    background: none;
+    border: 3px solid var(--text-primary);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.05rem;
+    background-color: var(--text-primary);
+    color: var(--background-color);
+
+    transition: all 0.2s ease-in; 
+}
+
+button.primary:hover {
+    cursor: pointer;
+    background: none;
+    color: var(--text-primary);
+    transform: scale(1.025);
 }
