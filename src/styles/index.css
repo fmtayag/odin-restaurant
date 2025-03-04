@@ -5,7 +5,7 @@
 }
 
 :root {
-    --background-color: rgb(8, 8, 8);
+    --background-color: black;
     --text-primary: white;
     --text-secondary: gainsboro;
     --accent-color: rgb(226, 72, 16);
@@ -31,11 +31,6 @@
 }
 
 body {
-    background-image: url('../../assets/overlay.png');
-    background-repeat: no-repeat;
-    background-position: bottom -8rem right -8rem;
-    background-attachment: fixed;
-    background-size: min(70vw, 1020px);
     background-color: var(--background-color);
 }
 

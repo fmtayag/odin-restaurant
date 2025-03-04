@@ -1,17 +1,27 @@
-.content.home {
+.home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: end;
     width: min(70, 300px);
-    margin: var(--main-margin);
-    margin-top: 5rem;
+    position: relative;
 
+    background-image: url('../../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background-color);
+
+    padding-block: 5rem;
+}
+
+.home > :nth-child(1) { /* Title and text */
+    margin-right: var(--main-margin);
     & .title {
         font-size: 5rem;
         margin-bottom: 1rem;
     }
 
     & p {
-        width: 50ch;
+        width: 60ch;
         line-height: 1.5;
         margin-bottom: 5rem;
     }
