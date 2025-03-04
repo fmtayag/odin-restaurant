@@ -1,16 +1,14 @@
 
 import createHome from "./home";
+import './styles/index.css';
 
 const btnHome = document.querySelector("#home");
 const btnMenu = document.querySelector("#menu");
 const btnAbout = document.querySelector("#about");
+createHome();
 
 btnHome.addEventListener("click", (e) => {
-    
-    // Clear
     content.replaceChildren();
-
-    // Append
     createHome();
 });
 
