@@ -26,5 +26,6 @@ nav > button {
 }
 
 nav > button:hover {
+    cursor: pointer;
     color: var(--accent-color);
 }
