@@ -1,5 +1,4 @@
 import '../styles/home.css';
-import backgroundImage from '../../assets/overlay.png';
 
 export default function createHome() {
     content.innerHTML = `
