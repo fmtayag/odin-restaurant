@@ -1,5 +1,7 @@
 
-import createHome from "./home";
+import createHome from "./pages/home.js";
+import createMenu from "./pages/menu.js";
+import createAbout from "./pages/about.js";
 import './styles/index.css';
 
 const btnHome = document.querySelector("#home");
@@ -13,23 +15,11 @@ btnHome.addEventListener("click", (e) => {
 });
 
 btnMenu.addEventListener("click", (e) => {
-    const content = document.querySelector("#content");
-    const paragraph = document.createElement("p");
-    // Clear
     content.replaceChildren();
-
-    // Append
-    paragraph.textContent = "Menu!";
-    content.appendChild(paragraph);
+    createMenu();
 });
 
 btnAbout.addEventListener("click", (e) => {
-    const content = document.querySelector("#content");
-    const paragraph = document.createElement("p");
-    // Clear
     content.replaceChildren();
-
-    // Append
-    paragraph.textContent = "About!";
-    content.appendChild(paragraph);
+    createAbout();
 });
