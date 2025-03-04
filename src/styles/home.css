@@ -13,7 +13,7 @@
     padding-block: 5rem;
 }
 
-.home > :nth-child(1) { /* Title and text */
+.home > :nth-child(1) { /* Title, text, and button */
     margin-right: var(--main-margin);
     & .title {
         font-size: 5rem;
@@ -24,5 +24,23 @@
         width: 60ch;
         line-height: 1.5;
         margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        backdrop-filter: contrast(40%);
+    }
+
+    .home > :nth-child(1) { /* Title, text, and button */
+        & h1, p {
+            padding: 1rem;
+            background-color: var(--foreground-color);
+            color: var(--background-color);
+        }
+
     }
 }

@@ -6,6 +6,7 @@
 
 :root {
     --background-color: rgb(3,3,3);
+    --foreground-color: white;
     --text-primary: white;
     --text-secondary: gainsboro;
     --accent-color: rgb(226, 72, 16);
