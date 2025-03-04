@@ -84,3 +84,20 @@ button.primary:hover {
     color: var(--text-primary);
     transform: scale(1.025);
 }
+
+.home,
+.menu {
+    animation: entryAnim 1s ease-in-out;
+}
+
+@keyframes entryAnim {
+    0% {
+        transform: translateY(-5%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
