@@ -8,20 +8,29 @@ import './styles/nav.css';
 const btnHome = document.querySelector("#home");
 const btnMenu = document.querySelector("#menu");
 const btnAbout = document.querySelector("#about");
-// createHome();
-createAbout();
+let currentPage = "home";
+createHome();
 
 btnHome.addEventListener("click", (e) => {
-    content.replaceChildren();
-    createHome();
+    if(currentPage != "home") {
+        content.replaceChildren();
+        createHome();
+        currentPage = "home";
+    }
 });
 
 btnMenu.addEventListener("click", (e) => {
-    content.replaceChildren();
-    createMenu();
+    if(currentPage != "menu") {
+        content.replaceChildren();
+        createMenu();
+        currentPage = "menu";
+    }
 });
 
 btnAbout.addEventListener("click", (e) => {
-    content.replaceChildren();
-    createAbout();
+    if(currentPage != "about") {
+        content.replaceChildren();
+        createAbout();
+        currentPage = "about";
+    }
 });
