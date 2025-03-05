@@ -114,3 +114,7 @@ button.primary:hover {
     padding-inline: 32px;
     text-decoration: none;
 }
+
+.active {
+    color: var(--accent-color);
+}
