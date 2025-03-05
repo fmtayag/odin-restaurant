@@ -6,7 +6,11 @@ export default function createAbout() {
     <div class="about">
         <h1 class="title">About Us</h1>
         <div class="content">
-            <div class="hero"></div>
+            <div class="hero">
+            <a href="    https://www.freepik.com/free-photo/roasted-steak-tomato-cutting-desk_7303153.htm#fromView=search&page=1&position=6&uuid=e67bc642-e933-4597-9deb-18d79ee9eed7&query=Steakhouse+chef" class="attribution" >
+                Photo by KamranAydinov on Freepik.
+            </a>
+            </div>
             <h2>Only The Best Since 1066</h2>
             <p class="secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
             <p class="secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
