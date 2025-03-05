@@ -107,7 +107,7 @@ button.primary:hover {
 }
 
 .attribution {
-    display: inline;
+    display: inline-block;
     color: var(--background-color);
     background-color: var(--foreground-color);
     padding: 4px;
