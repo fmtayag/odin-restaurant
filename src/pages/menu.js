@@ -20,17 +20,17 @@ export default function createMenu() {
                     </li>
                     <li class="food-item">
                         <div class="name">Asgardian's Feast</div>
-                        <div class="price">$15</div>
+                        <div class="price">$20</div>
                         <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Jötunn's Bounty</div>
-                        <div class="price">$5</div>
+                        <div class="price">$20</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Fenrir's Bite</div>
-                        <div class="price">$5</div>
+                        <div class="price">$15</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                 </ul>
@@ -38,17 +38,17 @@ export default function createMenu() {
                 <ul class="food-list">
                     <li class="food-item">
                         <div class="name">Hasselback Potatoes</div>
-                        <div class="price">$20</div>
+                        <div class="price">$7</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Northern Slaw</div>
-                        <div class="price">$60</div>
+                        <div class="price">$4</div>
                         <div class="description">Lorem ipsum dolor sit amet elit.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Valkyrie's Greens</div>
-                        <div class="price">$60</div>
+                        <div class="price">$8</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                 </ul>
@@ -56,12 +56,12 @@ export default function createMenu() {
                 <ul class="food-list">
                     <li class="food-item">
                         <div class="name">Valhallan Mead</div>
-                        <div class="price">$20</div>
+                        <div class="price">$10</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Odin's Chalice</div>
-                        <div class="price">$60</div>
+                        <div class="price">$8</div>
                         <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
                     </li>
                 </ul>
