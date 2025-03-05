@@ -1,120 +1,151 @@
+/*
+=========================
+        Fonts
+=========================
+*/
+
+@font-face {
+  font-family: 'Norse';
+  src: url('../../assets/Norse-Bold.woff2') format('woff2'),
+    url('../../assets/Norse-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../assets/Raleway-Regular.woff2') format('woff2'),
+    url('../../assets/Raleway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+=========================
+        Resets
+=========================
+*/
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --background-color: rgb(3,3,3);
-    --foreground-color: white;
-    --text-primary: white;
-    --text-secondary: gainsboro;
-    --accent-color: rgb(255, 47, 0);
-    --main-margin: 3rem;
-}
-
-@font-face {
-    font-family: 'Norse';
-    src: url('../../assets/Norse-Bold.woff2') format('woff2'),
-      url('../../assets/Norse-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('../../assets/Raleway-Regular.woff2') format('woff2'),
-        url('../../assets/Raleway-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  --background-color: rgb(3, 3, 3);
+  --foreground-color: white;
+  --text-primary: white;
+  --text-secondary: gainsboro;
+  --accent-color: rgb(255, 47, 0);
+  --main-margin: 3rem;
 }
 
 body {
-    background-color: var(--background-color);
-    background-image: url('../../assets/grunge.jpg');
-    /* background-repeat: no-repeat; */
-    background-size: 100vw;
-    background-color: var(--background-color);
+  background-color: var(--background-color);
+  background-image: url('../../assets/grunge.jpg');
+  background-size: 100vw;
+  background-color: var(--background-color);
 }
 
-h1, h2, p, button, li {
-    font-family: 'Raleway', 'Times New Roman', Times, serif;
-    color: var(--text-primary);
+h1,
+h2,
+p,
+button,
+li {
+  font-family: 'Raleway', 'Times New Roman', Times, serif;
+  color: var(--text-primary);
 }
+
+/*
+=========================
+        Common
+=========================
+*/
 
 .center-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .title {
-    font-family: 'Norse', 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    margin-bottom: 1rem;
+  font-family: 'Norse', 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  margin-bottom: 1rem;
 }
 
 .secondary {
-    color: var(--text-secondary);
+  color: var(--text-secondary);
 }
 
-button.primary {
-    width: 200px;
-    background: none;
-    border: 3px solid var(--text-primary);
-    padding: 1rem;
-    font-weight: bold;
-    font-size: 1.05rem;
-    background-color: var(--text-primary);
-    color: var(--background-color);
+.attribution {
+  display: inline-block;
+  color: var(--background-color);
+  background-color: var(--foreground-color);
+  padding: 4px;
+  padding-inline: 32px;
+  text-decoration: none;
+}
 
-    transition: all 0.2s ease-in; 
+.active {
+  color: var(--accent-color);
+}
+
+/*
+=========================
+        Button
+=========================
+*/
+
+button.primary {
+  width: 200px;
+  background: none;
+  border: 3px solid var(--text-primary);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.05rem;
+  background-color: var(--text-primary);
+  color: var(--background-color);
+
+  transition: all 0.2s ease-in;
 }
 
 button.primary:hover {
-    cursor: pointer;
-    background: none;
-    color: var(--text-primary);
-    transform: scale(1.025);
+  cursor: pointer;
+  background: none;
+  color: var(--text-primary);
+  transform: scale(1.025);
 }
+
+/*
+=========================
+        Animation
+=========================
+*/
 
 .home,
 .menu,
 .about {
-    animation: entryAnim 1s cubic-bezier(0.85, 0, 0.15, 1);
-    ;
+  animation: entryAnim 1s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 @keyframes entryAnim {
-    0% {
-        transform: translateY(-5%);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(-5%);
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-.attribution {
-    display: inline-block;
-    color: var(--background-color);
-    background-color: var(--foreground-color);
-    padding: 4px;
-    padding-inline: 32px;
-    text-decoration: none;
-}
-
-.active {
-    color: var(--accent-color);
+  0% {
+    transform: translateY(-5%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
