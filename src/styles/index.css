@@ -88,13 +88,17 @@ button.primary:hover {
 .home,
 .menu,
 .about {
-    animation: entryAnim 1s ease-in-out;
+    animation: entryAnim 1s cubic-bezier(0.85, 0, 0.15, 1);
+    ;
 }
 
 @keyframes entryAnim {
     0% {
         transform: translateY(-5%);
         opacity: 0;
+    }
+    50% {
+        transform: translateY(-5%);
     }
     100% {
         transform: translateY(0);
