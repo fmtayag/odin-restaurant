@@ -8,7 +8,7 @@ import './styles/nav.css';
 const btnHome = document.querySelector("#home");
 const btnMenu = document.querySelector("#menu");
 const btnAbout = document.querySelector("#about");
-createAbout();
+createHome();
 
 btnHome.addEventListener("click", (e) => {
     content.replaceChildren();
