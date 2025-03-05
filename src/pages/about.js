@@ -14,7 +14,7 @@ export default function createAbout() {
             <p class="secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         
-        <div class="contact">
+        <div class="info">
             <ul class="location">
                 <li><h2 class="name">Visit Us</h2></li>
                 <li class="subheader"><h3>Valhalla Branch</h3></li>
@@ -23,7 +23,7 @@ export default function createAbout() {
                 <li>123 Mj&#xf6;lnir Street, Jotunheim</li>
                 <li>All branches open from 12nn to 9pm.</li>
             </ul>
-            <ul class="details">
+            <ul class="contact">
                 <li><h2 class="name">Contact us</h2></li>
                 <li><span class="material-symbols-outlined">mail</span>theodinsteakhouse@odinmail.com</li>
                 <li><span class="material-symbols-outlined">call</span>(001) 1234567890</li>
