@@ -57,12 +57,12 @@ export default function createMenu() {
                     <li class="food-item">
                         <div class="name">Valhallan Mead</div>
                         <div class="price">$10</div>
-                        <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
+                        <div class="description">House-brewed, made from only the purest of honey, with a special fruit mix.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Odin's Chalice</div>
-                        <div class="price">$8</div>
-                        <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
+                        <div class="price">$20</div>
+                        <div class="description">Aged red wine made from the finest vines of Valhalla, aged in Yggdrasil wood.</div>
                     </li>
                 </ul>
             </div>
