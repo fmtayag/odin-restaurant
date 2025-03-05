@@ -25,8 +25,9 @@ export default function createAbout() {
             </ul>
             <ul class="details">
                 <li><h2 class="name">Contact us</h2></li>
-                <li>theodinsteakhouse@odinmail.com</li>
-                <li>(001) 1234567890</li>
+                <li><span class="material-symbols-outlined">mail</span>theodinsteakhouse@odinmail.com</li>
+                <li><span class="material-symbols-outlined">call</span>(001) 1234567890</li>
+                <li>Lines are open 24/7 .</li>
             </ul>
         </div>
     </div>
