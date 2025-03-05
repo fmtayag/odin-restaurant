@@ -39,17 +39,17 @@ export default function createMenu() {
                     <li class="food-item">
                         <div class="name">Hasselback Potatoes</div>
                         <div class="price">$7</div>
-                        <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
+                        <div class="description">Thinly sliced baked potatoes basted with garlic butter. Crispy on the outside, soft on the inside.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Northern Slaw</div>
                         <div class="price">$4</div>
-                        <div class="description">Lorem ipsum dolor sit amet elit.</div>
+                        <div class="description">Finely shredded cabbage lathered with a salad dressing of your choosing.</div>
                     </li>
                     <li class="food-item">
                         <div class="name">Valkyrie's Greens</div>
                         <div class="price">$8</div>
-                        <div class="description">Lorem ipsum dolor sit amet adipisicing elit.</div>
+                        <div class="description">Lettuce, cabbage, corn kernels, and carrots with a salad dressing of your choosing.</div>
                     </li>
                 </ul>
                 <h2 class="category">Drinks</h2>
