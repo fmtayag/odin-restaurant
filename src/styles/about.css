@@ -4,6 +4,17 @@
     flex-direction: column;
     align-items: center;
     width: 50vw;
+    padding-bottom: 2rem;   
+}
+
+.about .content {
+    & h2 {
+        margin-bottom: 1rem;
+    }
+    & p {
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
+    }
 }
 
 .contact {
@@ -17,10 +28,6 @@
 .contact ul {
     list-style-type: none;
 
-    & .header {
-        margin-bottom: 1rem;
-    }
-
     & li {
         margin-bottom: 0.25rem;
     }
@@ -32,4 +39,14 @@
 
 .contact .location {
     border-right: 4px solid var(--foreground-color);
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    background-image: url('../../assets/hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -250px;
+    margin-bottom: 1rem;
 }
