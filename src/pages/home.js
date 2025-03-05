@@ -10,7 +10,7 @@ export default function createHome() {
         </div>   
         <div>
             <h1 class="title">The Odin Steakhouse</h1>
-            <p class="secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eius! Dignissimos aut exercitationem quibusdam praesentium laboriosam aperiam ducimus corporis illum similique officia, earum esse consequuntur sint ipsum voluptatum, debitis ea.</p>
+            <p class="secondary">Dine and wine like a Norse god straight out of Valhalla. We offer only the finest steaks - hand cut, and cooked to perfection fit for Odin himself. Afterwards, indulge yourself in the best red wine that Valhalla has to offer. That is the Odin promise.</p>
             <button type="button" class="primary">See Our Menu</button>
         </div>
              
