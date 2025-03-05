@@ -86,7 +86,8 @@ button.primary:hover {
 }
 
 .home,
-.menu {
+.menu,
+.about {
     animation: entryAnim 1s ease-in-out;
 }
 
